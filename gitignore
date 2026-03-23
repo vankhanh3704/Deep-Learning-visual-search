@@ -1,0 +1,37 @@
+# ─── Dataset (KHÔNG push lên Git) ───
+data/
+*.csv
+*.zip
+
+# ─── Model weights (KHÔNG push lên Git — file .pth nặng vài trăm MB) ───
+saved_models/
+faiss_indexes/
+*.pth
+*.pt
+
+# ─── Python cache ───
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# ─── Jupyter Notebook outputs (chỉ push .py, không push .ipynb) ───
+*.ipynb_checkpoints/
+# Uncomment dòng dưới nếu muốn chặn hoàn toàn notebook:
+# *.ipynb
+
+# ─── Môi trường ảo ───
+.env
+venv/
+env/
+.venv/
+
+# ─── IDE ───
+.idea/
+.vscode/
+*.suo
+*.user
+
+# ─── OS ───
+.DS_Store
+Thumbs.db
